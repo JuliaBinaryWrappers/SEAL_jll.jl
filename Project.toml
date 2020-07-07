@@ -1,6 +1,6 @@
 name = "SEAL_jll"
 uuid = "cdf55027-1209-57fc-8789-28745714751d"
-version = "3.5.4+0"
+version = "3.5.5+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

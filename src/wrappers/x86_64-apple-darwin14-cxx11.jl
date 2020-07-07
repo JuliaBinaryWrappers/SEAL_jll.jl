@@ -8,7 +8,7 @@ LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `libseal`
-const libseal_splitpath = ["lib", "libseal.3.5.4.dylib"]
+const libseal_splitpath = ["lib", "libseal.3.5.5.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libseal_path = ""
@@ -22,7 +22,7 @@ const libseal = "@rpath/libseal.3.5.dylib"
 
 
 # Relative path to `libsealc`
-const libsealc_splitpath = ["lib", "libsealc.3.5.4.dylib"]
+const libsealc_splitpath = ["lib", "libsealc.3.5.5.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libsealc_path = ""
@@ -43,8 +43,6 @@ function __init__()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    # Lastly, we need to add to LIBPATH_list the libraries provided by Julia
-    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     global libseal_path = normpath(joinpath(artifact_dir, libseal_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
@@ -63,12 +61,8 @@ function __init__()
     filter!(!isempty, unique!(PATH_list))
     filter!(!isempty, unique!(LIBPATH_list))
     global PATH = join(PATH_list, ':')
-    global LIBPATH = join(LIBPATH_list, ':')
+    global LIBPATH = join(vcat(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ':')
 
-    # Add each element of LIBPATH to our DL_LOAD_PATH (necessary on platforms
-    # that don't honor our "already opened" trick)
-    #for lp in LIBPATH_list
-    #    push!(DL_LOAD_PATH, lp)
-    #end
+    
 end  # __init__()
 
