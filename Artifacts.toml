@@ -1,136 +1,136 @@
 [[SEAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "240104d4afda38edd95af2598ffdf229fd15010c"
+git-tree-sha1 = "4ff483deb5e72fe3669ef47fb6c029721b23121e"
 libc = "glibc"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "b659d7e1e1e00f15bb5a28644d687b4beeaf3d9308564c6f4da12d774eea2445"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "675f9c5380d8c6da062a184481ab6e5415e517924c7013dff6a4f3733ca12a7d"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.aarch64-linux-gnu-cxx03.tar.gz"
 [[SEAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fd31fcbcc9164ecee011581cbb220f600e4f0e92"
+git-tree-sha1 = "1745e3450c3c0858260f6a87347641dd7856ffbb"
 libc = "glibc"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "3f5cdb3f831dd9b91e36b2ee84f33b780856e2cefba1d174d868bd9abca007ad"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "3949ce4eaab3dbc338f3c4cc16724ccd6729a3579f5ceaffe5a56e996b232090"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.aarch64-linux-gnu-cxx11.tar.gz"
 [[SEAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "eefa41e86d3f031478c54528ece74e844450a84d"
+git-tree-sha1 = "9c7e4a953acd838719aae0f079bd7de75baadad4"
 libc = "musl"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "a0e7fbd8a3c0d728c518320fed276636c868ad538a1def5bc3ce350d2f43e7f2"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "cdd86ca43da50f22eb8113880fbbf0b630b57bbdf0e6bed40db4408a6d0e3e33"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.aarch64-linux-musl-cxx03.tar.gz"
 [[SEAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "61db64f26e026f5c4cda16265142ea02e6a7fa3d"
+git-tree-sha1 = "ab362dc53d3b61b524fe09f09825e7e3226aee39"
 libc = "musl"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "f8e7f4d2a591c1b985f2379baeb1a59b923c94d902d815528e5996142958dfb1"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "299dfaf614694efbb06f72505ad64be331700a23945a9f547bb9e8ec28bfe092"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.aarch64-linux-musl-cxx11.tar.gz"
 [[SEAL]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f2c58e0c44c333f12bbecb07e30c92530daac098"
+git-tree-sha1 = "4b8411e2b3ad22c7b9a2c4f249766332b8a93213"
 libc = "glibc"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "2c0c0367ca1bdc498ce7e1740506b12034f3ce958b7f3a3e8b8b7d858d41ac40"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "038e1d127c592a9424b819f2588b50bfe6ba05ad47de593d6dd940e7922f419c"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[SEAL]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "6046ad25bd0a9853e322b24388f35971c9f5f152"
+git-tree-sha1 = "0afd1ecb996b126939c107c0add5b5e8c4a850d3"
 libc = "glibc"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "5d77368d5774534493434d9597447a36a228fe0129b0a1b4643eae39166bff84"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "7ce491b0806ed6ca88b30e7636958b40909aaff6c88631c2bea01b3d1cd93641"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "03b56a905111f884a9c1d9011008eeb7d518bac0"
+git-tree-sha1 = "07dd5efab47af82f0844f01794fc1f89524a7c25"
 os = "macos"
 
     [[SEAL.download]]
-    sha256 = "6b8b48a61bc891b5cddc21d04074ee4f1c6f030f8b55ffc246115a2ccaedb0fa"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-apple-darwin14-cxx03.tar.gz"
+    sha256 = "425f9ad32e8f6f2771a0574735ab5a9977e013d26d71f893bc8f45e392a5bf78"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-apple-darwin14-cxx03.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4257c92d8b871dc8b1bce9b2d946e0e559534667"
+git-tree-sha1 = "3bb4a8dc4d7277650366845efb3a7aab613aa3b5"
 os = "macos"
 
     [[SEAL.download]]
-    sha256 = "92240f96efbc3bacc8bb36bec3496ea11e74551dbb7723ccf7e81c271a3c7c3f"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "caca2a325816bb0652fb8ecc70a09c39eeb949258455b532c799c7b609cd3394"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-apple-darwin14-cxx11.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ffa50d1261025fec7201128142f4708e61ac9971"
+git-tree-sha1 = "9e4aeb3d3ec640a89986c8d830d9c9cba8cb15a1"
 libc = "glibc"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "41c6aed2f09cec1972e82bcf90ba261e6ed2d3dcacea0fba06ba927993504a9b"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "b56e8837924d0ec59c096024046c0db9f7202d743b99d37122733f18696a18ef"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-linux-gnu-cxx03.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "706d96a1f65963488bb13a4e063554d4c37438e0"
+git-tree-sha1 = "691750241a60fef91abc3de0872ab262a553f58e"
 libc = "glibc"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "f9b608033c94a219294d67ee1380c0e78a5dac6ed10faf8f6bed2e0d25cc0ede"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "ba108e0ab25eccc3f6a4c72250bb9b86ae11bdabc5c828b8e0d4471be259968a"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-linux-gnu-cxx11.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "5a25cfa2795d14dfba8fad2164f230d9e1d592b2"
+git-tree-sha1 = "b951953c88aecf9d6ffd582dfc2f500c59a62947"
 libc = "musl"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "d188e7417795bcabe4a7295199848e0590d4b5b1b21b56e0f30850804acad7fb"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "a8aef8e1d148b9145ed852579cd20f0c3b08b07aee8d82b10e90bd28037e1c12"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-linux-musl-cxx03.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "716d7fd6de40adef64ba4e823e3bef03ae6c85e4"
+git-tree-sha1 = "ab30023298b78665d5a95490b42d76ba3d963a25"
 libc = "musl"
 os = "linux"
 
     [[SEAL.download]]
-    sha256 = "75669746377910ac28f779858ea8c9c7453099854a25d743c285d438a7400f9a"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "754d1b8aadb3d891e5f6b2779f9c960da99949b24e7fccf76d3eb20121b10584"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-linux-musl-cxx11.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "229612fdd9faa743df84a1df7e65e39a276926c3"
+git-tree-sha1 = "6ac4ef8cd38db9410a55c119936898664d754886"
 os = "freebsd"
 
     [[SEAL.download]]
-    sha256 = "2b0b47ced2dd8e6440e0fa6e918d107ef1f133c36a420f07285409aa083407a0"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
+    sha256 = "adaf5cf061ae40517e6ddb1d2353c9b6eeea8215b66d1c6a26dfe9de2873f6fb"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
 [[SEAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e5d9a29b7eb626651d801edd384cc98c7d132dc5"
+git-tree-sha1 = "4fb3ca27f2fd1dc3a0eeb91c077607c55089ad4f"
 os = "freebsd"
 
     [[SEAL.download]]
-    sha256 = "0978396f3ff2c6c3ff9d5416e328398be298671cf8a7fed4d16cf9c41acb1645"
-    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.5+2/SEAL.v3.5.5.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "35701deecc7b762711b5b8db0d3366bd0fe9cb980829124c0daed62cc0a83dab"
+    url = "https://github.com/JuliaBinaryWrappers/SEAL_jll.jl/releases/download/SEAL-v3.5.6+0/SEAL.v3.5.6.x86_64-unknown-freebsd11.1-cxx11.tar.gz"

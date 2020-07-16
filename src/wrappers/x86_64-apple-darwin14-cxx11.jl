@@ -8,7 +8,7 @@ LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `libseal`
-const libseal_splitpath = ["lib", "libseal.3.5.5.dylib"]
+const libseal_splitpath = ["lib", "libseal.3.5.6.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libseal_path = ""
@@ -22,7 +22,7 @@ const libseal = "@rpath/libseal.3.5.dylib"
 
 
 # Relative path to `libsealc`
-const libsealc_splitpath = ["lib", "libsealc.3.5.5.dylib"]
+const libsealc_splitpath = ["lib", "libsealc.3.5.6.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libsealc_path = ""
